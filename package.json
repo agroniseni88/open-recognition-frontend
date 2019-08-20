@@ -37,5 +37,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://us-central1-open-recognition.cloudfunctions.net/api"
+  "proxy": "https://europe-west1-openrecognition-ec8e4.cloudfunctions.net/api"
 }

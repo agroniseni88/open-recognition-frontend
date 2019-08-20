@@ -32,6 +32,9 @@ const styles = (theme => ({
   submit: {
     margin: theme.spacing(3, 0, 2),
   },
+  typography: {
+    useNextVariants: true,
+  }
 }));
 class signup extends Component {
   constructor(){
@@ -46,7 +49,7 @@ class signup extends Component {
         errors:{}
     }
 }
-componentWillReceiveProps(nextProps){
+UNSAFE_componentWillReceiveProps(nextProps){
   if(nextProps.UI.errors){
   this.setState({errors: nextProps.UI.errors})
 }

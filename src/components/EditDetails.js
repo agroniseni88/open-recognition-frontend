@@ -12,14 +12,14 @@ import DialogContent from '@material-ui/core/DialogContent';
 import EditIcon from '@material-ui/icons/Edit'
 import { TextField } from '@material-ui/core';
 import Button from '@material-ui/core/Button'
-const styles = (theme) => ({
-    ...theme,
-    button: {
+const styles =  {
+      button: {
         float: "right"
 
-    }
+    },
+    
 
-})
+}
 class EditDetails extends Component {
     state = {
         story: '',
@@ -75,7 +75,7 @@ class EditDetails extends Component {
         return (
          <Fragment>
              <Tooltip title="Edit details" placement="Top">
-                 <IconButton onClick={this.handleOpen} classes={classes.button}>
+                 <IconButton onClick={this.handleOpen} classeName={classes.button}>
                      <EditIcon colors="primary"/>
 
 
