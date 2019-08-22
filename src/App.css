@@ -6,6 +6,17 @@ body{
   background-color: rgb(245,245,245);
 
 }
+ button{
+  
+      color: white;
+     }
+     #trustbutton:focus{
+      background-color: #2ecc71;
+      color: white;
+      
+    }
+    
+    
 .container{
   margin: 80px auto 0 auto;
   max-width: 1200px;
